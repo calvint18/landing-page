@@ -16,7 +16,7 @@ ul {
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 5px;
 
 }
 body {
@@ -26,6 +26,7 @@ body {
 
 .header-bot {
     display: flex;
+    padding: 36px;
 }
 
 .left-side {
