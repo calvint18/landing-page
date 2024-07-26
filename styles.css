@@ -70,6 +70,21 @@ body {
     text-align: end;
 }
 
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-action {
+    flex: 3;
+}
+
 
 
 
