@@ -1,10 +1,19 @@
+* {
+    font-family: Roboto;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    gap: 8px
+    gap: 8px;
+}
+
+.left-links {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .header {
@@ -19,6 +28,19 @@ ul {
     padding: 5px;
 
 }
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.info-label {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 16px
+}
 body {
     display: flex;
     flex-direction: column;
@@ -28,6 +50,17 @@ body {
 .header-bot {
     display: flex;
     padding: 36px;
+}
+
+.bot-title {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.bot-subtext, a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .left-side {
@@ -68,6 +101,8 @@ body {
 
 .quoter {
     text-align: end;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .action {
@@ -78,6 +113,8 @@ body {
 .action-box {
     display: flex;
     justify-content: space-between;
+    background-color: #3882F6;
+    padding: 30px
 }
 
 
@@ -85,6 +122,33 @@ body {
     flex: 3;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.action-button {
+    border-color: white;
+}
+
+.header-button {
+    border-style: none;
+}
+
+.footer-txt {
+    color: white;
+}
 
 
 
