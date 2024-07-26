@@ -22,6 +22,7 @@ ul {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header-bot {
@@ -54,6 +55,19 @@ body {
 
 .info {
     max-width: 100px;
+}
+
+.quote-container {
+    padding: 50px 125px 50px 125px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    text-align: center;
+}
+
+.quoter {
+    text-align: end;
 }
 
 
